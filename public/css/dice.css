@@ -1,0 +1,20 @@
+#dice {
+    width: 100px;
+    height: 100px;
+    background-color: #aff7b2;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    float: left;
+    
+}
+
+#dice2 {
+    width: 100px;
+    height: 100px;
+    background-color: #aff7b2;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
