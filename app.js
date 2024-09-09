@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var session = require('express-session'); //express sessionı ekliyoruz
 var logger = require('morgan');
 var db = require('./database'); //database.jsin yolunu verdik
-const get_poke = require('./helpers/getpoke.js'); //içe aktardık cunku get pokeyi burda kullanıcaz
+//const get_poke = require('./helpers/getpoke.js'); //içe aktardık cunku get pokeyi burda kullanıcaz
 var router = express.Router();
 
 // Passport.js setup

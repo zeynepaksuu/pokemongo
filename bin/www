@@ -9,6 +9,7 @@ var app = require('../app');
 var debug = require('debug')('pokego:server');
 var http = require('http');
 const { Server: SocketIoServer } = require('socket.io');
+const get_poke = require('../helpers/getpoke.js'); //içe aktardık cunku get pokeyi burda kullanıcaz
 
 /**
  * Get port from environment and store in Express.
